@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Laske Yhteen</title>
+        
+    </head>
+    <body>
+        <div id="item-1">
+            <h1>Kahden luvun summa</h1>
+        </div>
+        <form>
+            <label id="item-2">
+                Anna luku 1:
+            </label>
+            <input type="float" id="number-1" name="number1" value=""><br>
+            <label id="item-3">
+                Anna luku 2:
+            </label>
+            <input type="float" id="number-2" name="number2" value=""><br>
+        </form>
+            
+        <div id="final-container">
+            <div id="item-4">
+                <button onclick="summa()">
+                    <p>Laske yhteen</p>
+                </button></div>
+            <div id="item-5">
+              <p id="summa"></p>
+            </div>
+        </div>    
+        
+        <script src="script.js"></script>
+        
+    </body>
+</html>
